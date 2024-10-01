@@ -1,0 +1,364 @@
+body, html{
+    margin: 0%;
+}
+.main{
+    background-color:  rgb(247, 168, 22);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.blend{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    background-color: white;
+    opacity: 0.7;
+    filter: blur(190px);
+}
+.blend2{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0.9;
+    filter: blur(150px);
+}
+.logodiv{
+    width: 11%;
+    height: 26%;
+    position: absolute;
+    top: -4%;
+    left: -2%;
+    z-index: 2;
+}
+.logo{
+    filter: brightness(0) invert(1);
+    width: 100%;
+    height: 100%;
+    
+}
+.bg{
+    width: 100%;
+    height: 100%;
+
+}
+.bg1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 4;
+}
+
+.one{
+    font-size: 4.5vw;
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    font-family: "Righteous";
+    color:white;
+}
+
+.two{
+    font-size: 4.5vw;
+    position: absolute;
+    top: 23%;
+    left: 24%;
+    color:white;
+    font-family: "Righteous";
+}
+.three{
+    font-size: 6vw;
+    position: absolute;
+    top:32%;
+    left: 2%;
+    -webkit-text-stroke: 0.01px black;
+    color: rgb(245, 167, 41);
+    font-family: "Black Ops One";
+}
+.des{
+    font-size: 1.2vw;
+    position: absolute;
+    top: 53%;
+    color: white;
+    left: 3%;
+    font-family: "Viga";
+}
+
+.fly{
+    width: 15%;
+    height: 7%;
+    position: absolute;
+    top: 66%;
+    left: 3%;
+    font-size: 1.5vw;
+    font-family: "Righteous";
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 167, 41);
+}
+
+.cube1{
+    width: 20%;
+    height: 43%;
+    background-color: white;
+    position: absolute;
+    top: 9%;
+    right: 22.5%;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 3;
+
+}
+.c1,.it1,.ip1,.ia1,.ib1,.id1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+    transition: all 0.5s ease-in-out;
+    
+}
+.cube11{
+    width: 20%;
+    height: 43%;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 53%;
+    right: 22.5%;
+    border-radius: 20px;
+    z-index: 3;
+    
+
+}
+.c11,.it11,.ip11,.ia11,.ib11,.id11{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.cube2{
+    width: 20%;
+    height: 60%;
+    background-color: white;
+    position: absolute;
+    top: 9%;
+    right: 2%;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 3;
+}
+.c2,.it2,.ip2,.ia2,.ib2,.id2{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.cube22{
+    width: 20%;
+    height: 26%;
+    position: absolute;
+    right: 2%;
+    top: 70%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 3;
+}
+.c22,.it22,.ip22,.ia22,.ib22,.id22{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.t1,.a1,.b1,.d1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 100%;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    transition: all 0.5s ease-in-out;
+    
+}
+.t11,.a11,.b11,.d11{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    transition: all 0.5s ease-in;
+}
+.t2,.a2,.b2,.d2{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    left: 100%;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    transition: all 0.5s ease-in;
+}
+.t22,.a22,.b22,.d22{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+    background-color: blanchedalmond;
+}
+
+
+
+.p1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 100%;
+    border-radius: 20px;
+    background-color: red;
+    transition: all 1s ease-in-out;
+    
+}
+.p11{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    border-radius: 20px;
+    background-color: red;
+    transition: all 1s ease-in-out;
+}
+.p2{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    left: 100%;
+    border-radius: 20px;
+    background-color: red;
+    transition: all 0.5s ease-in;
+}
+.p22{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+    background-color: red;
+}
+
+.right{
+    border: none;
+    width: 6%;
+    height: 6%;
+    background-color: rgb(245, 167, 41);
+    position: absolute;
+    bottom: 5%;
+    left: 24%;
+    font-size: 2vw;
+    border-radius: 10px;
+}
+
+.a1,.a11,.a2,.a22{
+    background-color: yellow;
+}
+
+.b1,.b11,.b2,.b22{
+    background-color: green;
+}
+.d1,.d11,.d2,.d22{
+    background-color: brown;
+}
+.places{
+    width: 20%;
+    height: 8%;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+    
+    
+
+}
+.pl0{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 21%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-family: "Viga";
+}
+.pl1{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 105%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-family: "Viga";
+}
+
+.pl2{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 105%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-family: "Viga";
+}
+.pl3{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 105%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    
+    color: white;
+    font-family: "Viga";
+}
+.pl4{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 105%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    
+    color: white;
+    font-family: "Viga";
+}
+.pl5{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -55%;
+    left: 105%;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-family: "Viga";
+}
